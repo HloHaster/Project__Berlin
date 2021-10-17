@@ -1,0 +1,271 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*, *:before, *:after {
+  -webkit-box-sizing: boarder-box;
+  box-sizing: border-box;
+}
+
+:focus, :active {
+  outline: none;
+}
+
+a:focus, a:active {
+  outline: none;
+}
+
+nav, footer, header, aside {
+  display: block;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a, a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherbit;
+  font-weight: 400;
+}
+
+/* cta Style */
+.cta {
+  padding: 89px 0 120px 0;
+}
+.cta .cta__container {
+  max-width: 726px;
+  margin: 0 auto;
+  padding: 0 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.cta .cta__container .cta__text {
+  font: bold 28px/179% "Inter", sans-serif;
+  letter-spacing: -0.221053px;
+  color: #000000;
+}
+@media (max-width: 767px) {
+  .cta {
+    padding: 50px 0 70px 0;
+  }
+  .cta .cta__container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .cta .cta__container .cta__text {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+}
+
+/* Feedback Style */
+.feedback {
+  padding-bottom: 120px;
+}
+.feedback .feedback__container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 0 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.feedback .feedback__container .feedback__title {
+  font: bold 38px/132% "Inter", sans-serif;
+  text-align: center;
+  letter-spacing: -0.3px;
+  color: #000000;
+  margin-bottom: 30px;
+}
+.feedback .feedback__container .feedback__form {
+  width: 93%;
+  background: #FFFFFF;
+  border: 1px solid #E8E8EA;
+  -webkit-box-shadow: 0 22px 54px rgba(67, 87, 138, 0.29);
+          box-shadow: 0 22px 54px rgba(67, 87, 138, 0.29);
+  border-radius: 10px;
+  padding: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.feedback .feedback__container .feedback__form .form__field {
+  width: 82%;
+  background: #FFFFFF;
+  border: 1px solid #E8E8EA;
+  border-radius: 3px;
+  padding: 15px 0 14px 16px;
+  margin-bottom: 20px;
+}
+.feedback .feedback__container .feedback__form .form__field ::-webkit-input-placeholder {
+  font: 14px/50px "Inter", sans-serif;
+  letter-spacing: -0.3px;
+  color: #323232;
+}
+.feedback .feedback__container .feedback__form .form__field ::-moz-placeholder {
+  font: 14px/50px "Inter", sans-serif;
+  letter-spacing: -0.3px;
+  color: #323232;
+}
+.feedback .feedback__container .feedback__form .form__field :-ms-input-placeholder {
+  font: 14px/50px "Inter", sans-serif;
+  letter-spacing: -0.3px;
+  color: #323232;
+}
+.feedback .feedback__container .feedback__form .form__field ::-ms-input-placeholder {
+  font: 14px/50px "Inter", sans-serif;
+  letter-spacing: -0.3px;
+  color: #323232;
+}
+.feedback .feedback__container .feedback__form .form__field ::placeholder {
+  font: 14px/50px "Inter", sans-serif;
+  letter-spacing: -0.3px;
+  color: #323232;
+}
+.feedback .feedback__container .feedback__form .form__field input {
+  font: 14px/21px "Inter", sans-serif;
+  letter-spacing: -0.3px;
+  color: #323232;
+}
+.feedback .feedback__container .feedback__form .feedback__attach-block {
+  width: 82%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 20px;
+}
+.feedback .feedback__container .feedback__form .feedback__attach-block .attach-block__text {
+  font: 14px/35px "Inter", sans-serif;
+  letter-spacing: -0.3px;
+  color: #323232;
+}
+.feedback .feedback__container .feedback__form .feedback__attach-block .attach-block__button {
+  background: #F2F5F8;
+  border-radius: 3px;
+  font: 14px "Inter", sans-serif;
+  letter-spacing: -0.3px;
+  color: #323232;
+  padding: 9px 12px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.feedback .feedback__container .feedback__form .feedback__attach-block .attach-block__button img {
+  margin-right: 8px;
+}
+.feedback .feedback__container .feedback__form .feedback__button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 3px;
+  color: #0F3D33;
+  background-color: #E6FBF6;
+  padding: 15px 0;
+  font: bold 16px/19px "Inter", sans-serif;
+  width: 82%;
+}
+@media (max-width: 570px) {
+  .feedback .feedback__container .feedback__form {
+    padding: 20px 5px;
+  }
+  .feedback .feedback__container .feedback__form .form__field {
+    width: 95%;
+  }
+  .feedback .feedback__container .feedback__form .feedback__button {
+    width: 95%;
+  }
+  .feedback .feedback__container .feedback__form .feedback__attach-block {
+    width: 95%;
+  }
+}
+@media (max-width: 410px) {
+  .feedback .feedback__container .feedback__attach-block {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    text-align: center;
+  }
+}
